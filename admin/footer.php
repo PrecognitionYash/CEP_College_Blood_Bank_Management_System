@@ -76,9 +76,9 @@ border-radius:10px;
 <body>
 
 <div class="footer" ><b>
-  <a href="dashboard.php"   <?php if($active=='dashboard') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-dashboard"></span>&nbsp&nbspDashboard</a>
-  <a href="register.php"   <?php if($active=='add') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-pencil"></span>&nbsp&nbspAdd Donor</a>
-  <a href="donor_list.php"   <?php if($active=='list') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-list-alt"></span>&nbsp&nbsp Donor List</a></b>
+  <a href="dashboard.php"   <?php if($active=='dashboard') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-dashboard"></span>&nbsp&nbspAdmin Panel</a>
+  <a href="donor_list.php"   <?php if($active=='list') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-list-alt"></span>&nbsp&nbspDonor List</a></b>
+  <a href="register.php"   <?php if($active=='add') echo "class='pressed'"; ?>><span class="glyphicon glyphicon-pencil"></span>&nbsp&nbspRegister Donor</a>
 </div>
 </body>
 </html>
